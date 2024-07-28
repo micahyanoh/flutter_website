@@ -10,7 +10,7 @@ class DesktopScafold extends StatefulWidget {
 class _DesktopScafoldState extends State<DesktopScafold> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.purple,
     );
   }

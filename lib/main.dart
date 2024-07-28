@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ResponsiveLayout(
+      home: const ResponsiveLayout(
           mobileScafold: MobileScafold(),
           tabletScafold: TabletScafold(),
           desktopScafold: DesktopScafold()),
