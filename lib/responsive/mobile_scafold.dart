@@ -13,6 +13,6 @@ class _MobileScafoldState extends State<MobileScafold> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: myAppbar, drawer: AppDrawer(), backgroundColor: bgColor);
+        appBar: myAppbar, drawer: const AppDrawer(), backgroundColor: bgColor);
   }
 }

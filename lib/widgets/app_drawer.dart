@@ -8,7 +8,7 @@ class AppDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       backgroundColor: appdrawerColor,
-      child: Column(
+      child: const Column(
         children: [
           DrawerHeader(child: Icon(Icons.favorite)),
           ListTile(
