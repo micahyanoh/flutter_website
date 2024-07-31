@@ -22,15 +22,16 @@ class _TabletScafoldState extends State<TabletScafold> {
           children: [
             // four top boxes
             AspectRatio(
-              aspectRatio: 1,
+              aspectRatio: 4,
               child: SizedBox(
                 width: double.infinity,
                 child: GridView.builder(
                     itemCount: 4,
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2),
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 4),
                     itemBuilder: (context, index) {
-                      return MyBox();
+                      return const MyBox();
                     }),
               ),
             ),
@@ -38,7 +39,7 @@ class _TabletScafoldState extends State<TabletScafold> {
                 child: ListView.builder(
                     itemCount: 4,
                     itemBuilder: (context, index) {
-                      return MyTile();
+                      return const MyTile();
                     }))
           ],
         ));
